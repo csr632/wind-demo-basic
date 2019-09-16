@@ -36,10 +36,10 @@ function App() {
   return (
     <div className="App">
       <WindAppLayout
-        nav={<WindConsoleMenu items={menuItems} header="Wind Demo" />}
+        nav={<WindConsoleMenu items={menuItems} header="页面一级导航" />}
       >
         页面内容：
-        <Button type="primary">Button works!</Button>
+        <Button type="primary">使用Button</Button>
       </WindAppLayout>
     </div>
   );
