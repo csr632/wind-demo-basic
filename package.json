@@ -5,9 +5,9 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "@aliwind/component": "0.0.1-alpha.3",
-    "@aliwind/rc-app-layout": "0.0.1-alpha.1",
-    "@aliwind/rc-console-menu": "0.0.1-alpha.1",
+    "@aliwind/component": "latest",
+    "@aliwind/rc-app-layout": "latest",
+    "@aliwind/rc-console-menu": "latest",
     "moment": "2.24.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
