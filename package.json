@@ -5,14 +5,14 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "@aliwind/component": "^1.0.0-alpha.3",
-    "@aliwind/rc-app-layout": "^1.0.0-alpha.0",
-    "@aliwind/rc-console-menu": "^1.0.0-alpha.2",
-    "moment": "2.24.0",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-scripts": "3.0.1",
-    "styled-components": "4.3.2"
+    "@alicloud/console-components": "latest",
+    "@alicloud/console-components-app-layout": "latest",
+    "@alicloud/console-components-console-menu": "latest",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "^3.0.1",
+    "styled-components": "^4.3.2"
   },
   "devDependencies": {
     "typescript": "3.3.3"

@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { Button } from "@aliwind/component";
-import WindAppLayout from "@aliwind/rc-app-layout";
-import WindConsoleMenu from "@aliwind/rc-console-menu";
+import { Button } from "@alicloud/console-components";
+import AppLayout from "@alicloud/console-components-app-layout";
+import ConsoleMenu from "@alicloud/console-components-console-menu";
 
 import "./styles.css";
-import "@aliwind/component/dist/wind.css";
+import "@alicloud/console-components/dist/wind.css";
 
 const menuItems = [
   {
@@ -35,12 +35,10 @@ const menuItems = [
 function App() {
   return (
     <div className="App">
-      <WindAppLayout
-        nav={<WindConsoleMenu items={menuItems} header="页面一级导航" />}
-      >
+      <AppLayout nav={<ConsoleMenu items={menuItems} header="页面一级导航" />}>
         页面内容：
         <Button type="primary">使用Button</Button>
-      </WindAppLayout>
+      </AppLayout>
     </div>
   );
 }
